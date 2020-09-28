@@ -1,5 +1,6 @@
 		// Barbara E. Boaventura e Souza 
 		// BSI2020 - IFMG 
+		// Crie um algoritmo que calcule a soma e a mÃ©dia de 3 nÃºmeros passados pelo usuÃ¡rio.
 package roteiro01;
 import java.util.*;
 
@@ -8,13 +9,13 @@ public class BarbaraEmanuelle_R01E01 {
 		    Scanner scan = new Scanner(System.in);
 		    double numero1, numero2,numero3, media;
 		    
-		        System.out.println("Digite três números [aperte ENTER ao digitar]");
+		        System.out.println("Digite trÃªs nÃºmeros [aperte ENTER ao digitar]");
 		        numero1 = scan.nextDouble();
 		        numero2 = scan.nextDouble();
 		        numero3 = scan.nextDouble();
 		        media = (numero1 + numero2 + numero3) / 3;
 		        
-		        System.out.printf("A média dos números escolhidos é: %.2f", media);
+		        System.out.printf("A mÃ©dia dos nÃºmeros escolhidos Ã©: %.2f", media);
 		        
 		        scan.close();
 
